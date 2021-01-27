@@ -1,0 +1,28 @@
+01.27 6:57 PM
+DOM Methods
+
+The getElementById() and getElementsByTagName() were the two methods from DOM standard and the HTML5 specification adds three new methods for accessing elements.  
+             -getElementsByClassName(), querySelector(), and querySelectorAll().
+getElementById()
+
+Javascript DOM 
+
+1) getElementById :
+
+Typically you want to access an element within the DOM directly and try to do something with it.
+---------------------------------------------
+2) getElementsByTagName :
+
+ getElementsByTagName() is one of the method exposes for accessing nodes directly. This method takes a tag name as argument and returns a collection of all the nodes it finds in the document that are a sort of tag.
+---------------------------------------------
+3) getElementsByClassName() :
+
+The getElementsByClass() method works same like getElementById() method, and it will returns a collection of all elements in the document with the specified class name.
+---------------------------------------------
+4) querySelector() :
+
+It will returns the first element that matches a specified CSS selector in the document.
+---------------------------------------------
+5) querySelectorAll() :
+
+The querySelectorAll() method returns a collection filled with the matching elements in source order. Since it is a static collection, the modification of the document has no effect on the collection.
